@@ -1,6 +1,6 @@
 {
-//  "replace": false,
-//  "values": [
-//    "phenomena:nether_monster_room"
-//  ]
+ "replace": false,
+ "values": [
+   "phenomena:nether_monster_room"
+ ]
 }

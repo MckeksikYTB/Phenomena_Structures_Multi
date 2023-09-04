@@ -1,4 +1,4 @@
-//package net.Davidak.phenomena.mixin;
+package net.PS.phenomena.mixin;//package net.Davidak.phenomena.mixin;
 //
 //import net.minecraft.client.gui.components.EditBox;
 //import net.minecraft.client.gui.screens.inventory.StructureBlockEditScreen;
