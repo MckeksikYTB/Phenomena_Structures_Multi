@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "phenomena:doorbox",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1133439758,
+    "spacing": 32,
+    "separation": 16,
+    "exclusion_zone": {
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+"structures": [
+    {
+      "structure": "phenomena:small_bridge_deep",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1725959633,
+    "spacing": 64,
+    "separation": 1,
+    "frequency": 0.5,
+    "exclusion_zone": {
+      "chunk_count": 6,
+      "other_set": "phenomena:watchtower"
+    }
+  }
+}

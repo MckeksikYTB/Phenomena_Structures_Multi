@@ -1,0 +1,16 @@
+{ //TODO loot table and hide that barrels better
+  "type": "minecraft:jigsaw",
+  "start_pool": "phenomena:stonehenge",
+  "size": 1,
+  "max_distance_from_center": 80,
+  "biomes": "#phenomena:has_structure/stonehenge_biomes",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "use_expansion_hack": false,
+  "start_height": {
+    "absolute": -1
+  },
+ "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "spawn_overrides": {
+  }
+}

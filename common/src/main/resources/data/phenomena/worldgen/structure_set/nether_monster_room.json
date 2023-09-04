@@ -1,0 +1,17 @@
+{
+"structures": [
+    {
+      "structure": "phenomena:nether_monster_room",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 13713582568,
+    "spacing": 8,
+    "separation": 4,
+    "frequency": 0.6,
+    "exclusion_zone": {
+    }
+  }
+}

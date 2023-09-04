@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "phenomena:abandoned_mansion",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1127369758,
+    "spacing": 32,
+    "separation": 16,
+    "exclusion_zone": {
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+"structures": [
+    {
+      "structure": "phenomena:sand_wall",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1527969758,
+    "spacing": 32,
+    "separation": 1,
+    "exclusion_zone": {
+    }
+  }
+}

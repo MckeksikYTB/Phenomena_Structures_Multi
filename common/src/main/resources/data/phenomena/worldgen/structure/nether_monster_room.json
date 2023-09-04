@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "phenomena:nether_monster_room",
+  "size": 1,
+  "max_distance_from_center": 80,
+  "biomes": "#phenomena:has_structure/nether_monster_room_biomes",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "start_height": {
+    "type": "uniform",
+    "min_inclusive": {
+      "absolute": 6
+    },
+    "max_inclusive": {
+      "absolute": 20
+    }
+  },
+  "use_expansion_hack": false,
+  "spawn_overrides": {
+  }
+}

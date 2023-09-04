@@ -1,0 +1,15 @@
+{
+  "name": "phenomena:small_sandstone_bridge",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenomena:small_bridge_sand",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

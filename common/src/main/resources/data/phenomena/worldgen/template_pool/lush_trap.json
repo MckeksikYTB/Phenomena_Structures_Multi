@@ -1,0 +1,15 @@
+{
+  "name": "phenomena:lush_trap",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenomena:lush_trap",
+        "processors": "phenomena:make_cobblestone_mossy"
+      }
+    }
+  ]
+}

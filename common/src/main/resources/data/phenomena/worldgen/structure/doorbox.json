@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "phenomena:doorbox",
+  "size": 1,
+  "max_distance_from_center": 80,
+  "biomes": "#phenomena:has_structure/doorbox_biomes",
+  "step": "underground_structures",
+  "terrain_adaptation": "bury",
+  "use_expansion_hack": false,
+  "start_height": {
+    "absolute": -22
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "spawn_overrides": {
+  }
+}

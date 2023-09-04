@@ -1,0 +1,15 @@
+{
+  "name": "phenomena:stonehenge",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenomena:stonehenge",
+        "processors": "phenomena:stonehenge"
+      }
+    }
+  ]
+}

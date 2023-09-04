@@ -1,0 +1,16 @@
+{
+"structures": [
+    {
+      "structure": "phenomena:lush_trap",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1375259728,
+    "spacing": 4,
+    "separation": 3,
+    "exclusion_zone": {
+    }
+  }
+}

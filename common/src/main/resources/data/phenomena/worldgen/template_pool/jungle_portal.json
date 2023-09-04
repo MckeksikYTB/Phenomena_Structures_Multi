@@ -1,0 +1,15 @@
+{
+  "name": "phenomena:jungle_portal",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenomena:jungle_portal",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

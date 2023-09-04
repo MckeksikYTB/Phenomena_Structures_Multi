@@ -1,0 +1,18 @@
+{
+"structures": [
+    {
+      "structure": "phenomena:wall",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1325969758,
+    "spacing": 32,
+    "separation": 1,
+    "exclusion_zone": {
+      "chunk_count": 6,
+      "other_set": "phenomena:small_bridge_deep"
+    }
+  }
+}

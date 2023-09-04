@@ -1,0 +1,15 @@
+{ //TODO randomization
+  "type": "minecraft:jigsaw",
+  "start_pool": "phenomena:end_house",
+  "size": 1,
+  "max_distance_from_center": 80,
+  "biomes": "#phenomena:has_structure/end_house_biomes",
+  "step": "surface_structures",
+  "use_expansion_hack": false,
+  "start_height": {
+    "absolute": 56
+  },
+ "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "spawn_overrides": {
+  }
+}

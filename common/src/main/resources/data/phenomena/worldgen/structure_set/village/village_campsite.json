@@ -1,0 +1,17 @@
+{
+"structures": [
+    {
+      "structure": "phenomena:village/village_campsite",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1376953758,
+    "spacing": 80,
+    "separation": 16,
+    "frequency": 0.5,
+    "exclusion_zone": {
+    }
+  }
+}

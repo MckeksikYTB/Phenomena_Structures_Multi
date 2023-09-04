@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "phenomena:deepslate_hill",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 17259596993,
+    "spacing": 64,
+    "separation": 1,
+    "frequency": 0.5,
+    "exclusion_zone": {
+    }
+  }
+}

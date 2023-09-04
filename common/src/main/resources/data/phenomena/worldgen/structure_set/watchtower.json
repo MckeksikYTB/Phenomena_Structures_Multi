@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "phenomena:watchtower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 193495230,
+    "spacing": 96,
+    "separation": 32,
+    "frequency": 0.5,
+    "exclusion_zone": {
+      "chunk_count": 16,
+      "other_set": "minecraft:pillager_outposts"
+    }
+  }
+}

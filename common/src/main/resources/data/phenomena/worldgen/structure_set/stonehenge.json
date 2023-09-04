@@ -1,0 +1,19 @@
+{
+"structures": [
+    {
+      "structure": "phenomena:stonehenge",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1326963758,
+    "spacing": 108,
+    "separation": 36,
+    "frequency": 0.5,
+    "exclusion_zone": {
+      "chunk_count": 12,
+      "other_set": "phenomena:small_bridge"
+    }
+  }
+}

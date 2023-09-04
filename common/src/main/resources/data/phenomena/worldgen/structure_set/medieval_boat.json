@@ -1,0 +1,19 @@
+{
+"structures": [
+    {
+      "structure": "phenomena:medieval_boat",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1325769858,
+    "spacing": 40,
+    "separation": 10,
+    "frequency": 0.5,
+    "exclusion_zone": {
+      "chunk_count": 1,
+      "other_set": "minecraft:ocean_monuments"
+    }
+  }
+}

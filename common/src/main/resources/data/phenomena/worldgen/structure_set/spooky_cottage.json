@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "phenomena:spooky_cottage",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1127369750,
+    "spacing": 40,
+    "separation": 30,
+    "exclusion_zone": {
+    }
+  }
+}

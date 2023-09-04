@@ -1,0 +1,7 @@
+{
+  //this is for lush trap piece
+  "replace": false,
+  "values": [
+    "minecraft:lush_caves"
+  ]
+}

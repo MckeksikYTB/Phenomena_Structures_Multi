@@ -1,0 +1,16 @@
+{ //TODO better terrain blend
+  "type": "minecraft:jigsaw",
+  "start_pool": "phenomena:watchtower",
+  "size": 1,
+  "max_distance_from_center": 80,
+  "biomes": "#phenomena:has_structure/small_bridge_biomes",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_box",
+  "use_expansion_hack": false,
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "MOTION_BLOCKING_NO_LEAVES",
+  "spawn_overrides": {
+  }
+}

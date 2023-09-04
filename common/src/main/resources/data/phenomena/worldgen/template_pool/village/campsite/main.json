@@ -1,0 +1,15 @@
+{
+  "name": "phenomena:village/campsite/main",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "phenomena:village/campsite/main/campfire",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

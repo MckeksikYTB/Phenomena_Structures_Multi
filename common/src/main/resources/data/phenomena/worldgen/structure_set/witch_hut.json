@@ -1,0 +1,19 @@
+{
+"structures": [
+    {
+      "structure": "phenomena:witch_hut",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 19243456781,
+    "spacing": 24,
+    "separation": 12,
+    "frequency": 0.5,
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "minecraft:swamp_huts"
+    }
+  }
+}

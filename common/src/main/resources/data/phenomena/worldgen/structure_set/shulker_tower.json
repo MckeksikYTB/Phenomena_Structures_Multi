@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "phenomena:shulker_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 17278596993,
+    "spacing": 68,
+    "separation": 1,
+    "frequency": 0.5,
+    "exclusion_zone": {
+    }
+  }
+}
