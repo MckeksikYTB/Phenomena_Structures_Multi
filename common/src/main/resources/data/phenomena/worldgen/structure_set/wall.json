@@ -8,8 +8,9 @@
   "placement": {
     "type": "minecraft:random_spread",
     "salt": 1325969758,
-    "spacing": 32,
-    "separation": 1,
+    "spacing": 70,
+    "frequency": 0.5,
+    "separation": 38,
     "exclusion_zone": {
       "chunk_count": 6,
       "other_set": "phenomena:small_bridge_deep"
