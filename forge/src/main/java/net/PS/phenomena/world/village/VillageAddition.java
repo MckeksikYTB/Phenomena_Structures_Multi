@@ -3,7 +3,6 @@ package net.PS.phenomena.world.village;
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement;
@@ -20,7 +19,7 @@ import java.util.List;
 @Mod.EventBusSubscriber(modid = "phenomena")
 public class VillageAddition {
     private static final ResourceKey<StructureProcessorList> EMPTY_PROCESSOR_LIST_KEY = ResourceKey.create(
-            Registries.PROCESSOR_LIST, new ResourceLocation("minecraft", "empty"));
+            Registry.PROCESSOR_LIST_REGISTRY, new ResourceLocation("minecraft", "empty"));
     private static void addBuildingToPool(Registry<StructureTemplatePool> templatePoolRegistry,
                                           Registry<StructureProcessorList> processorListRegistry,
                                           ResourceLocation poolRL,
@@ -46,8 +45,8 @@ public class VillageAddition {
 
     @SubscribeEvent
     public static void addNewVillageBuilding(final ServerAboutToStartEvent event) {
-        Registry<StructureTemplatePool> templatePoolRegistry = event.getServer().registryAccess().registry(Registries.TEMPLATE_POOL).orElseThrow();
-        Registry<StructureProcessorList> processorListRegistry = event.getServer().registryAccess().registry(Registries.PROCESSOR_LIST).orElseThrow();
+        Registry<StructureTemplatePool> templatePoolRegistry = event.getServer().registryAccess().registry(Registry.TEMPLATE_POOL_REGISTRY).orElseThrow();
+        Registry<StructureProcessorList> processorListRegistry = event.getServer().registryAccess().registry(Registry.PROCESSOR_LIST_REGISTRY).orElseThrow();
 //TODO make guildhouse more rare and maybe campfire
         addBuildingToPool(templatePoolRegistry, processorListRegistry, new ResourceLocation("minecraft:village/plains/houses"),
                 "phenomena:village/plains/campfire", 4);
