@@ -13,7 +13,6 @@ description='''
 Adding various structures to your world. Including Nether and End!!!
 '''
 
-# makes sure our mod does not be attempted to be ran on older version of Minecraft and explodes
 [[dependencies.phenomena]]
     modId="minecraft"
     mandatory=true
