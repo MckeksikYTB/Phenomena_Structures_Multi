@@ -23,7 +23,8 @@
     ]
   },
   "mixins": [
-    "phenomena.fabric.mixins.json"
+    "phenomena.fabric.mixins.json",
+    "phenomena.mixins.json"
   ],
 
   "depends": {
